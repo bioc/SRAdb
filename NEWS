@@ -35,6 +35,16 @@
     o IGVload, IGVgenome, IGVgoto, and IGVsnapshot introduced as 
       replacements for the single load2... commands
 
+1.2.0	2010-04-12
+    o New version for bioc 2.6 release
+
+1.2.1	2010-09-07
+    o Added IGVsession function
+    o Moved IGVsnapshotDirectory functionality into IGVsnapshot
+    o Removed IGVsnapshotDirectory
+    o Modified all corresponding help pages
+	o Modified all corresponding help pagesAdded function to check fastq file type inside of listFastq - either 'fastq.gz' or 'fastq.bz2'
+
 
 
 
