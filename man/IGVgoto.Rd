@@ -28,7 +28,7 @@ http://www.broadinstitute.org/igv/PortCommands
 Sean Davis <sdavis2@mail.nih.gov>
 }
 \seealso{
-\code{\link{startIGV}}, ~~~
+\code{\link{startIGV}}, \code{\link{IGVload}}
 }
 \examples{
   \dontrun{
