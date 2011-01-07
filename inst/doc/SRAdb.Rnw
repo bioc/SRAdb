@@ -35,6 +35,7 @@ options(width=50)
 
 \maketitle
 
+
 \section{Introduction}
 High throughput sequencing technologies have very rapidly become standard tools in biology.  The data that these machines generate are large, extremely rich.  As such, the Sequence Read Archives (SRA) have been set up at NCBI in the United States, EMBL in Europe, and DDBJ in Japan to capture these data in public repositories in much the same spirit as MIAME-compliant microarray databases like NCBI GEO and EBI ArrayExpress.  
 
