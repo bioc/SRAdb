@@ -1,10 +1,10 @@
 getSRAfile <-
-function (in_acc, sra_con, destdir, sraType='litesra', makeDirectory = FALSE, method) 
+function (in_acc, sra_con, destdir, sraType='litesra', makeDirectory=FALSE, method='curl') 
 {
     if (missing(method))
         method <- ifelse(!is.null(getOption("download.file.method")),
                          getOption("download.file.method"), "auto")
-	sraFiles = listSRAfile( in_acc, sra_con, sraType )  
+	sraFiles = listSRAfile( in_acc, sra_con=sra_con, sraType )  
     if ( makeDirectory==TRUE && !file.exists(destdir) ) {
         tryCatch(dir.create( destdir ),
                  error=function(err) {
